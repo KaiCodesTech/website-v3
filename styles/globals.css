@@ -1,0 +1,74 @@
+:root {
+  
+}
+
+.layoutContent {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.body {
+  padding: 10px;
+  overflow: visible;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Side bar */
+
+.sider {
+  background: rgba(0,0,0,0.15);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  position: sticky;
+  height: 97vh;
+}
+
+.siderHeader {
+  border-radius: 5px;
+}
+
+.siderHeader:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.siderHeaderImg {
+  height: 50px;
+}
+
+.siderLinks {
+
+}
+
+.siderLink {
+  padding: 9px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.siderLink:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.siderLinkText {
+  line-height: 1.75;
+}
