@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Typography fontSize={50}>
-        Hi, I&apos;m Kai
+        Hi, I&apos;m Kai!
       </Typography>
       <main>
         
